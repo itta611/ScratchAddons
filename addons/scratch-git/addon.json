@@ -1,0 +1,21 @@
+{
+  "name": "Scratch Git",
+  "description": "Version control Scratch with Git using GitHub",
+  "userscripts": [
+    {
+      "url": "userscript.js",
+      "matches": ["topics"],
+      "runAtComplete": true
+    }
+  ],
+  "tags": ["editor"],
+  "enabledByDefault": false,
+  "dynamicEnable": true,
+  "dynamicDisable": true,
+  "credits": [
+    {
+      "name": "itta611",
+      "link": "https://github.com/itta611/"
+    }
+  ]
+}
